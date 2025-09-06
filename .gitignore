@@ -1,0 +1,7 @@
+# .gitignore
+
+# Ignore the database configuration file
+db.yaml
+
+# Ignore Python's cache folders
+__pycache__/

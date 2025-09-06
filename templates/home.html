@@ -1,0 +1,13 @@
+<!-- templates/home.html -->
+<!-- This is the protected home page that only logged-in users can see. -->
+{% extends 'layout.html' %}
+
+{% block body %}
+<div class="bg-white p-8 rounded-lg shadow-lg text-center">
+    <h1 class="text-4xl font-bold text-gray-800 mb-4">Welcome, <span class="text-indigo-600">{{ username }}</span>!</h1>
+    <p class="text-lg text-gray-600">You have successfully logged into the application.</p>
+    <div class="mt-8">
+        <img src="https://placehold.co/600x400/6366f1/ffffff?text=Welcome!" alt="Welcome Graphic" class="mx-auto rounded-lg">
+    </div>
+</div>
+{% endblock %}
